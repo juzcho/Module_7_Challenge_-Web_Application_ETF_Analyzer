@@ -16,11 +16,15 @@ This project leverages **[python version 3.8.5](https://www.python.org/downloads
 
 * [PyVizlot](https://pyviz.org/) -  Python visualization package that provides a single platform for accessing multiple visualization libraries. Two of the libraries are:
 
+    * [plotly.express](https://plotly.com/python/plotly-express/) - This was used for data visualizatio for a rapid figure generation.
+
     * [hvPlot](https://hvplot.holoviz.org/index.html) -  This was used to be able to have an interactive plotting tool such as a line/bar graph.
 
 * [Numpy](https://numpy.org/install/) - This provides the ability to work with arrays and use different mathematical calculations  on arrays.
 
 * [Sqlalchemy version 1.3.20](https://anaconda.org/anaconda/sqlalchemy) - This is the Python SQL toolkit and Object Relational Mapper that gives application developers the full power and flexibility of SQL.
+
+* [Voilà](https://github.com/voila-dashboards/voila) - This will allow us to view our ETF Analyzer on the web.
 
 
 ---
@@ -57,6 +61,8 @@ Once you click ENTER, this will open on your default browser.
     `conda install -c conda-forge nodejs=12`
 
 - To confirm the installation of all the PyViz packages, then run the following command:
+
+    `conda list plotly`
 
     `conda list hvplot`
     
@@ -95,9 +101,15 @@ Here are some of the data visualization we did for this project.
 
 ## Usage
 
-1. We try to try to use SQLalchemy to read data from the database/.db file.
+- We try to try to use SQLalchemy to read data from the database/.db file.
 
-![Read database file](./Images/readdbfile.jpeg)
+
+    ![Read database file](./Images/readdbfile.jpeg)
+
+- Here is using the voila in the terminal to show the ETF analyzer tool.
+
+
+    ![Voila ETF Analyzer](./Images/voila_etfanalyzer.gif)
 
 ---
 
@@ -109,3 +121,28 @@ Email: juz317_cho@yahoo.com
 
 [![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/in/justinecho)
 
+---
+
+## License
+
+### **MIT License**
+
+Copyright (c) [2021] [Justine Cho]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
