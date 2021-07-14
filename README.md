@@ -109,7 +109,7 @@ Here are some of the data visualization we did for this project.
 - Here is using the voila in the terminal to show the ETF analyzer tool.
 
 
-    ![Voila ETF Analyzer](./Images/voila_etfanalyzer.gif)
+    ![Voila ETF Analyzer](./Images/voilaetfanalyzer.gif)
 
 ---
 
