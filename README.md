@@ -1,6 +1,6 @@
-# **Module 7 Challenge: Web Application ETF Analyzer**
+# **Web Application ETF Analyzer**
 
-## ETF Analyzer
+## Overview
 
 The ETF analysis tool is being able to create SQL queries to filter information from the provided database and create a dataframe in collaboration with the pandas library. It will also analyze the daily returns of each ticker, cumulative returns and create a line graph to visualize the information over time.
 
